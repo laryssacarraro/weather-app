@@ -1,0 +1,103 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 50px 377px;
+}
+
+.container {
+  border: 1px solid black;
+  background: rgb(35, 96, 104);
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+#search-button #current-location-button {
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#now-date {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  font-size: 70px;
+}
+
+#big-icon {
+  width: 120px;
+  padding: 0;
+  margin: -25px;
+  position: relative;
+  top: -8px;
+}
+
+.units {
+  position: relative;
+  top: -35px;
+  left: -15px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.fahrenheit-link .celsius-link {
+  text-decoration: none;
+}
+
+.weather-conditions {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.units .active {
+  color: black;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+}
+
+.units .active:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#search-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.date-time {
+  font-size: 15px;
+  position: relative;
+  margin-left: -60px;
+}
+
+.forecast {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  text-align: center;
+}
