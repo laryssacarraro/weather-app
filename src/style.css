@@ -105,3 +105,8 @@ li {
   padding: 0;
   text-align: center;
 }
+
+#github-link {
+    font-size: 12px;
+    text-align: center;
+}
