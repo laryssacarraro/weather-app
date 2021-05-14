@@ -1,11 +1,15 @@
 body {
   font-family: "Josefin Sans", sans-serif;
-  margin: 50px 377px;
+   max-width: 563px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
 }
+
 
 .container {
   border: 1px solid black;
-  background: rgb(35, 96, 104);
+  background: #c2bcb2;
 }
 
 form {
