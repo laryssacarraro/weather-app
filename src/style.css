@@ -1,14 +1,10 @@
-body {
+.container {
   font-family: "Josefin Sans", sans-serif;
-   max-width: 563px;
+   max-width: 538px;
   display: block;
   margin: 0 auto;
   margin-top: 50px;
-}
-
-
-.container {
-  border: 1px solid black;
+    border: 1px solid black;
   background: #c2bcb2;
 }
 
@@ -93,20 +89,9 @@ li {
   text-align: center;
 }
 
-.date-time {
-  font-size: 15px;
-  position: relative;
-  margin-left: -60px;
-}
-
-.forecast {
-  font-size: 18px;
-  font-weight: 500;
-  padding: 0;
+.weather-forecast {
+  margin-top: 30px;
   text-align: center;
 }
 
-#github-link {
-    font-size: 12px;
-    text-align: center;
-}
+
