@@ -3,21 +3,17 @@
    max-width: 538px;
   display: block;
   margin: 0 auto;
-  margin-top: 50px;
-    border: 1px solid black;
-  background: #c2bcb2;
-}
-
-form {
-  text-align: center;
-  margin-top: 20px;
-  border-radius: 8px;
+  margin-top: 25px;
+  border: 1px solid black;
+  background: rgb(199, 191, 191);
+  border-radius: 6px;
 }
 
 #search-button #current-location-button {
   font-size: 18px;
   font-weight: 900;
   cursor: pointer;
+  border-radius: 6px;
 }
 
 #now-date {
@@ -42,9 +38,9 @@ h2 {
 }
 
 #big-icon {
-  width: 120px;
+  width: 130px;
   padding: 0;
-  margin: -25px;
+  margin: -32px;
   position: relative;
   top: -8px;
 }
@@ -89,9 +85,14 @@ li {
   text-align: center;
 }
 
+#hourly-forecast {
+  margin-bottom: 10px;
+}
+
 .weather-forecast {
   margin-top: 30px;
   text-align: center;
 }
+
 
 
